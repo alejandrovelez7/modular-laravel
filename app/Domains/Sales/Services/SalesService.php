@@ -2,6 +2,7 @@
 
 namespace App\Domains\Sales\Services;
 
+use App\Domains\Sales\Contracts\DataTransferObjects\Customer;
 use App\Domains\Sales\Contracts\DataTransferObjects\Opportunity;
 use App\Domains\Sales\Contracts\SalesService as Contract;
 
@@ -24,6 +25,15 @@ class SalesService implements Contract
             'id' => 1,
             'name' => 'Cool Company',
             'amount' => 10000000,
+        ]);
+    }
+
+    public function getCustomer(int $customerId): Customer
+    {
+        // TODO: Implement getCustomer() method.
+        return Customer::from([
+            'id' => 1,
+            'name' => 'One cool customer',
         ]);
     }
 }
