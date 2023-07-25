@@ -54,3 +54,11 @@ describe('external boundaries', function () {
         ->toOnlyBeUsedIn('App\Domains\Support');
 });
 ```
+
+## Usage
+
+Run tests using
+
+```php
+./vendor/bin/pest
+```
