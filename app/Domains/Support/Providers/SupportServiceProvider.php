@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domains\Sales\Providers;
+namespace App\Domains\Support\Providers;
 
 use App\Domains\Support\Contracts\SupportService as SupportServiceContract;
 use App\Domains\Support\Services\SupportService;
